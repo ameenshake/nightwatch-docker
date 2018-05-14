@@ -1,4 +1,4 @@
-FROM selenium/base
+FROM selenium/standalone-chrome
 
 #===================
 # Install Node
