@@ -1,0 +1,16 @@
+{
+    "name": "telus-commerce-browser",
+    "version": "1.0.0",
+    "private": true,
+    "license": "proprietary",
+    "description": "NightWatch.js end to end tests",
+    "author": "TELUS",
+    "engines": {
+      "npm": ">=6"
+    },
+    "dependencies": {
+      "nightwatch": "^0.9.21",
+      "nightwatch-html-reporter": "^2.0.2"
+    }
+  }
+  
