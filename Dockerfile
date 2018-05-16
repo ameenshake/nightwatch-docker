@@ -8,8 +8,9 @@ RUN sudo apt-get -qqy update && sudo apt-get install -y curl \
  && sudo apt-get install -y nodejs \
  && sudo rm -rf /var/lib/apt/lists/*
 
-
-#install nightwatch
+#===================
+# Install Nightwatch
+#===================
 RUN mkdir home/seluser/nightwatch
 WORKDIR home/seluser/nightwatch
 COPY package.json ./
