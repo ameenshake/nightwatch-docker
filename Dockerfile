@@ -11,7 +11,6 @@ RUN sudo apt-get -qqy update && sudo apt-get install -y curl \
 #===================
 # Install Nightwatch
 #===================
-RUN mkdir home/seluser/nightwatch
 WORKDIR home/seluser/nightwatch
 COPY package.json ./
 RUN npm install
